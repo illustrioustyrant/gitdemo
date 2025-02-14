@@ -1,0 +1,24 @@
+import sys
+def dog():
+   print('woaf')
+
+def default():
+   print('hello')
+def cat():
+    print('Meow')
+def main():
+<<<<<<< HEAD
+    if sys.argv[1] == 'cat':
+        cat()
+    else:
+        default()
+
+=======
+    if sys.argv[1] == 'dog':
+        dog()
+    else:
+        default()
+>>>>>>> dog
+
+if __name__ == '__main__':
+    main()
